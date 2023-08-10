@@ -1,0 +1,61 @@
+body{
+    max-width: 100%;
+    color: black;
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+
+
+.produto { margin-bottom: 20px; cursor: pointer; }
+.produto p {
+    background-color: rgb(234, 247, 238);
+    color: black;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#produtos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    background: #bde2bd;
+    height: 100px;
+    color: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main {
+    background: gainsboro;
+}
+
+#h1 {
+    align-items: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.link-topo {
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.link-topo::after {
+    content: ' | ';
+    padding-left: 15px;
+
+}
+
